@@ -52,10 +52,11 @@ namespace guia_VARIABLES
 
             // PUNTO CINCO, TEMPERATURA EN GRADOS FAHRENHEIT//
 
-            double  tempGcel;
+            double tempGcel, tempGfarh;
+
             Console.WriteLine("ingrese la temperatura en grados celsius");
-            tempGcel = double.Parse (Console.ReadLine());
-            double tempGfarh = tempGcel * 1.8 + 32;
+            tempGcel = double.Parse(Console.ReadLine());
+            tempGfarh =tempGcel *1.8 + 32;
             Console.WriteLine("su temperatura en grados fahrenheit es " + tempGfarh);
 
             //PUNTO SEIS, ALTURA EN PULGADAS//
@@ -64,7 +65,7 @@ namespace guia_VARIABLES
             Console.WriteLine("ingrese su altura en metros ");
             altMET = double.Parse (Console.ReadLine());
             double altPUL = (altMET / 0.0254);
-            Console.WriteLine(" su altura resultante en`pulgadas es " + altPUL);  
+            Console.WriteLine(" su altura resultante en`pulgadas es " + altPUL); 
             
 
 
